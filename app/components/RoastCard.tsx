@@ -22,7 +22,6 @@ const RoastCard: React.FC<RoastCardProps> = ({
   score,
   topBuzzword,
   roastCharacter,
-  onShare,
 }) => {
   // Use roastCharacter as seed for the avatar
   const avatarUrl = `https://api.dicebear.com/9.x/bottts/svg?seed=${roastCharacter}`;

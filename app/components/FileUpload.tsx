@@ -14,6 +14,10 @@ interface ResumeMetrics {
   sentenceSauna: number;
   hyperboleHunter: number;
   punctuationParty: number;
+  roastScore: number;
+  topBuzzword: string;
+  name: string;
+  roastCharacter: string;
 }
 
 interface RoastData {
